@@ -198,4 +198,26 @@
         </RelativeLayout>
     </androidx.cardview.widget.CardView>
 
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="7dp">
+
+            <Button
+                android:id="@+id/startBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff3333"
+                android:drawableStart="@drawable/icon_next"
+                android:padding="10dp"
+                android:text="Next" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
 </LinearLayout>
