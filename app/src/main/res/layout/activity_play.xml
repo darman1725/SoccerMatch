@@ -289,6 +289,53 @@
 
     </androidx.cardview.widget.CardView>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="7dp">
+
+            <Button
+                android:id="@+id/matchStartBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#0099cc"
+                android:enabled="true"
+                android:padding="10dp"
+                android:text="Start"
+                android:textColor="@android:color/black" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="7dp">
+
+            <Button
+                android:id="@+id/matchFinishBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ec2369"
+                android:enabled="false"
+                android:padding="10dp"
+                android:text="Finish"
+                android:textColor="@android:color/black" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
 
 
 </LinearLayout>
