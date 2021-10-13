@@ -31,4 +31,13 @@
         android:textSize="24sp"
         android:textStyle="bold|italic" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/logRcView"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:textAlignment="center" />
+
+
 </LinearLayout>
