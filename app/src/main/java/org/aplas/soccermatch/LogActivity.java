@@ -19,14 +19,6 @@ public class LogActivity extends AppCompatActivity {
     private RecyclerView logView;
     private Button restartBtn;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_log);
 
-
-
-
-    }
 
 }
