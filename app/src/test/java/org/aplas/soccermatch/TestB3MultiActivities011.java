@@ -2,7 +2,6 @@ package org.aplas.soccermatch;
 
 import android.app.Activity;
 import android.os.Build;
-
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -11,7 +10,6 @@ import org.junit.runners.MethodSorters;
 import org.robolectric.Robolectric;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.annotation.Config;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.fail;
@@ -21,7 +19,7 @@ import static org.junit.Assert.fail;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
 public class TestB3MultiActivities011 extends ViewTest {
-    private MainActivity activity;
+    private Activity activity;
     private final String layoutName = "activity_main";
     private final String appName  = "SoccerMatch";
     private final String packageName = "org.aplas.soccermatch";

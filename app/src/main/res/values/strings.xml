@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Soccer Match</string>
+    <string name="app_title">APLAS SOCCER BOARD</string>
+    <string name="soccer_match_score">Soccer Match Score</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_team">Home Team</string>
+    <string name="away_team">Away Team</string>
 </resources>
